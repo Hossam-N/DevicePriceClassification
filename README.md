@@ -17,6 +17,9 @@ This project predicts the price range for mobile devices based on various specif
 - **preprocessing.ipynb**: Jupyter notebook for data preprocessing, including feature selection and scaling.
 - **Predict_Api.py**: Flask API to predict mobile device price ranges using a trained Support Vector Machine (SVM) model.
 
+## Swagger API documentation
+- http://localhost:8080/swagger-ui/index.html
+
 ## Setup Instructions
 
 ### Prerequisites
