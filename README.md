@@ -67,7 +67,7 @@ This project predicts the price range for mobile devices based on various specif
 
 ### API Endpoints
 
-- **POST `/api/predict/{id}`**: Accepts a JSON object with mobile device specifications (without `priceRange` and `id`) and returns the predicted price range.
+- **POST `/api/predict/{id}`**: Accepts id of the mobile device from path
 
    - Description: Predict the price range for a mobile device.
    - Response: A JSON object with the device details and predicted price range.
